@@ -1,0 +1,15 @@
+
+p { text-align: justify; }
+
+h1 {text-align: center; }
+
+body { 
+	background-color: #fdfdfd;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: #75aaee;
+	font-family: "sans-serif";
+} 
+
+a {  text-decoration: none; color: #68cc54;}
+
