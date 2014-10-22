@@ -3,13 +3,11 @@ $(document).ready(function() {
 
         $(".nav-toggle").remove();
 
-            $('.nav').css('left', '-225px').addClass('side-fechado');
+            $('.nav').css('left', '-80%').addClass('side-fechado');
             $('.nav').append( "<div class='nav-toggle'><img src='imagens/ic_reorder_white_48dp.png' ></div>" );
 
             menu();
 });
-
-
 
 function menu() {
         $('.nav-toggle').click(function() {
@@ -21,19 +19,20 @@ function menu() {
                 });
 
                 $('.content-app').animate({
-                    left: "225px"                    
+                    left: "80%",
+                    /*225*/                   
                 }, 100,function() {});
             }
             else {
                 $('.nav').animate({
-                    left: "-225px",
+                    left: "-80%",
                 }, 100, function() {
                     $(".nav").addClass("side-fechado");
                 });
 
                 $('.content-app').animate({
-                    left: "0px",
-                }, 100,function() {} );
+                    left: "0px",                    
+                }, 100,function() {});
             }
         });
     }
