@@ -3,7 +3,8 @@ p { text-align: justify; }
 
 h1 {text-align: center; }
 
-body { 
+.content-app { 
+	position: relative;
 	background-color: #fdfdfd;
 	padding-left: 5%;
 	padding-right: 5%;

@@ -18,6 +18,10 @@ function menu() {
                 }, 100, function() {
                     $(".nav").removeClass("side-fechado");
                 });
+
+                $('.content-app').animate({
+                    left: "225px",
+                }, 100,function() {});
             }
             else {
                 $('.nav').animate({
@@ -25,6 +29,10 @@ function menu() {
                 }, 100, function() {
                     $(".nav").addClass("side-fechado");
                 });
+
+                $('.content-app').animate({
+                    left: "0px",
+                }, 100,function() {} );
             }
         });
     }
