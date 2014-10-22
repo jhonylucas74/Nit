@@ -1,5 +1,6 @@
 $(document).ready(function() {
-        var tamanhoJanela = $(window).width();
+        var tamanhoJanela = $(window).width();        
+
         $(".nav-toggle").remove();
 
             $('.nav').css('left', '-225px').addClass('side-fechado');
@@ -20,7 +21,7 @@ function menu() {
                 });
 
                 $('.content-app').animate({
-                    left: "225px",
+                    left: "225px"                    
                 }, 100,function() {});
             }
             else {
